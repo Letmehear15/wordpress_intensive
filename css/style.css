@@ -89,6 +89,8 @@
 }
 .wait {
     padding: 80px 0 70px 0;
+    min-height: 605px;
+    background-color: #efefef;
 }
 .wait_title {
     font-family: 'Roboto' sans-serif;
@@ -111,17 +113,105 @@
     font-family: 'Roboto' sans-serif;
     color: #4a4a4a;
 }
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .wrapper .waiting_item {
-    display: inline-block;
     text-align: center;
     margin-top: 50px;
     margin-right: 30px;
     width: 339px;
-    vertical-align: top;
 }
 .wrapper .waiting_item .descr {
     margin-top: 33px;
     font-size: 16px;
     color: #4a4a4a;
     font-family: 'Roboto' sans-serif;
+}
+.optimization {
+    min-height: 550px;
+    background: url('../img/women.jpg') 120px 48px no-repeat;
+    padding: 102px 0 107px 0;
+}
+.optimization_text {
+    width: 750px;
+    margin-left: auto;
+}
+.optimization_header {
+    color: #299cbd; 
+    font-family: "Roboto - Black"; 
+    font-size: 28px; 
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+.optimization_text p {
+    margin-top: 25px;
+    color: #4a4a4a; 
+    font-family: Roboto; 
+    font-size: 17px; 
+    font-weight: 300; 
+    line-height: 27px;
+}
+.optimization_text span {
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.study {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/main_study.jpg') center center/cover no-repeat;
+}
+.study_header {
+    text-align: center;
+    color: #efefef;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.study_wrapper  {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.study_item {
+    width: 204px;
+}
+.study_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.study_descr {
+    margin-top: 26px;
+    color: #efefef;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+}
+.present {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 87px 0;
+}
+.present_img {
+    display: flex;
+    justify-content: center;
+}
+.present_descr {
+    width: 1131px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
 }
